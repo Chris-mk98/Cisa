@@ -1,0 +1,17 @@
+domain 1: 200
+domain 2: 173
+domain 3: 259
+domain 4: 390
+domain 5: 500
+
+
+[main]
+|index(PK, int, auto_increament)|domain{int)|number(int)|first(BOOL)|second(BOOL)|third((BOOL)|
+
+[correct_answer]
+|domain|number|
+
+[description]
+domain|number|descript(string)
+
+input.csv -> main.py -> main.mysql
